@@ -5,7 +5,7 @@
 <nav>
   <ul>
     {#each navList as nav}
-    <li class="pointer"><a href="{nav.link}" target="_blank">{ nav.title }</a></li>
+    <li class="pointer"><a href="{nav.link}" target="_blank" rel="noreferer">{ nav.title }</a></li>
     {/each}
   </ul>
 </nav>
