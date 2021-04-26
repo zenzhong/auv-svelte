@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "zip": "rm -rf public/build && rm -rf dist.zip && npm run build && cd public && zip dist.zip * && mv dist.zip ..",
+    "zip": "rm -rf public/build && rm -rf dist.zip && npm run build && cd public && zip -r dist.zip * && mv dist.zip ..",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
   },
