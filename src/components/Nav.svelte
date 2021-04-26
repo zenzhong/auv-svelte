@@ -13,7 +13,6 @@
 <style>
   nav {
     width: 100%;
-    margin: 30px 0;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 30px;

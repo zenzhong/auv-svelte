@@ -52,8 +52,8 @@
 header {
   width: 100%;
   line-height: 32px;
-  padding: 30px 0 20px;
-  margin: 20px 0;
+  padding: 20px 0 10px;
+  margin: 10px 0;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 30px;

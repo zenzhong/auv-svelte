@@ -1,47 +1,170 @@
 export const navList = [
-  { link: "http://www.qingzz.cn", title: "迷津渡口" },
-  { link: "http://www.fenav.com/", title: "前端导航" },
-  { link: "https://www.toutiao.com/", title: "今日头条" },
-  { link: "http://mail.163.com/", title: "网易邮箱" },
-  { link: "https://exmail.qq.com/cgi-bin/loginpage", title: "腾讯企业邮箱" },
-  { link: "https://my.worktile.com/dashboard", title: "Worktile工作台" },
-  { link: "https://www.zhihu.com/explore", title: "知乎" },
-  { link: "https://www.wukong.com/", title: "悟空问答" },
-  { link: "http://www.360doc.com", title: "360doc个人图书馆" },
-  { link: "http://www.chinaz.com/", title: "站长之家" },
-  { link: "https://www.yidianzixun.com/", title: "一点资讯" },
-  { link: "http://www.zol.com.cn/", title: "中关村在线" },
-  { link: "http://geek.csdn.net/", title: "极客头条" },
-  { link: "http://www.meihua.info/", title: "梅花网" },
-  { link: "http://www.iqiyi.com/", title: "爱奇艺" },
-  { link: "https://www.youku.com/", title: "优酷网" },
-  { link: "https://v.qq.com/", title: "腾讯视频" },
-  { link: "http://www.mgtv.com/", title: "芒果TV" },
-  { link: "http://www.douyu.com/", title: "斗鱼直播" },
-  { link: "http://www.yiledao.com/", title: "一乐岛搞笑视频" },
-  { link: "http://www.zyshow.co/", title: "综艺秀" },
-  { link: "http://music.163.com/", title: "网易云音乐" },
-  { link: "https://y.qq.com/", title: "QQ音乐" },
-  { link: "http://www.yinyuetai.com/", title: "音悦台" },
-  { link: "https://www.taobao.com/", title: "淘宝网" },
-  { link: "http://www.jd.com/", title: "京东" },
-  { link: "http://www.vip.com/", title: "唯品会" },
-  { link: "http://sports.qq.com/", title: "腾讯体育" },
-  { link: "http://nba.tmiaoo.com/", title: "jrs直播网" },
-  { link: "http://www.aiyuke.com/", title: "爱羽客" },
-  { link: "http://www.pingpangwang.com/", title: "乒乓网" },
-  { link: "http://www.sobaidupan.com/", title: "搜百度盘" },
-  { link: "https://segmentfault.com/", title: "SegmentFault" },
-  { link: "https://greasyfork.org/zh-CN", title: "Greasy Fork" },
-  { link: "http://www.jq22.com/", title: "jQuery插件库" },
   {
-    link: "https://developer.mozilla.org/zh-CN/docs/Web",
-    title: "MDN Web 技术文档",
+    title: "迷津渡口",
+    link: "http://www.qingzz.cn/",
   },
-  { link: "http://nodejs.cn/api/", title: "Node.js中文文档" },
-  { link: "http://www.html5plus.org/doc/h5p.html", title: "HTML5+技术文档" },
-  { link: "https://github.com/explore", title: "Github" },
-  { link: "http://www.iconfont.cn/", title: "Iconfont" },
-  { link: "https://mp.weixin.qq.com/", title: "微信公众平台" },
-  { link: "https://secure.php.net/manual/zh/", title: "PHP手册" },
+  {
+    title: "力扣",
+    link: "https://leetcode-cn.com/",
+  },
+  {
+    title: "掘金",
+    link: "https://juejin.cn/",
+  },
+  {
+    title: "吾爱破解",
+    link: "https://www.52pojie.cn/",
+  },
+  {
+    title: "印记中文",
+    link: "https://docschina.org/",
+  },
+  {
+    title: "InfoQ",
+    link: "https://www.infoq.cn/",
+  },
+  {
+    title: "SegmentFault",
+    link: "https://segmentfault.com/",
+  },
+  {
+    title: "Stack Overflow",
+    link: "https://stackoverflow.com/",
+  },
+  {
+    title: "奇舞周刊",
+    link: "https://weekly.75.team/",
+  },
+  {
+    title: "虎嗅网",
+    link: "https://www.huxiu.com/",
+  },
+  {
+    title: "奇客",
+    link: "https://www.solidot.org/",
+  },
+  {
+    title: "品玩",
+    link: "https://www.pingwest.com/",
+  },
+  {
+    title: "极客公园",
+    link: "http://www.geekpark.net/",
+  },
+  {
+    title: "爱课程",
+    link: "https://www.icourses.cn/home/",
+  },
+  {
+    title: "慕课网",
+    link: "https://www.imooc.com/",
+  },
+  {
+    title: "微信读书",
+    link: "https://weread.qq.com/",
+  },
+  {
+    title: "今日头条",
+    link: "https://www.toutiao.com/",
+  },
+  {
+    title: "知乎",
+    link: "https://www.zhihu.com/explore",
+  },
+  {
+    title: "煎蛋",
+    link: "https://jandan.net/",
+  },
+  {
+    title: "果壳网",
+    link: "https://www.guokr.com/",
+  },
+  {
+    title: "堆糖",
+    link: "https://www.duitang.com/",
+  },
+  {
+    title: "淘宝网",
+    link: "https://www.taobao.com/",
+  },
+  {
+    title: "天猫商城",
+    link: "https://www.tmall.com/",
+  },
+  {
+    title: "京东",
+    link: "https://www.jd.com/",
+  },
+  {
+    title: "唯品会",
+    link: "https://www.vip.com/",
+  },
+  {
+    title: "腾讯视频",
+    link: "https://v.qq.com/",
+  },
+  {
+    title: "哔哩哔哩",
+    link: "https://www.bilibili.com/",
+  },
+  {
+    title: "芒果TV",
+    link: "https://www.mgtv.com/",
+  },
+  {
+    title: "爱奇艺",
+    link: "https://www.iqiyi.com/",
+  },
+  {
+    title: "优酷",
+    link: "https://www.youku.com/",
+  },
+  {
+    title: "网易云音乐",
+    link: "https://music.163.com/",
+  },
+  {
+    title: "酷狗音乐",
+    link: "https://www.kugou.com/",
+  },
+  {
+    title: "QQ音乐",
+    link: "https://y.qq.com/",
+  },
+  {
+    title: "虎扑",
+    link: "https://www.hupu.com/",
+  },
+  {
+    title: "腾讯体育",
+    link: "https://sports.qq.com/",
+  },
+  {
+    title: "百度云盘",
+    link: "https://pan.baidu.com/",
+  },
+  {
+    title: "Greasy Fork",
+    link: "https://greasyfork.org/zh-CN",
+  },
+  {
+    title: "GitHub",
+    link: "https://github.com/",
+  },
+  {
+    title: "墨刀",
+    link: "https://modao.cc/",
+  },
+  {
+    title: "石墨文档",
+    link: "https://shimo.im/",
+  },
+  {
+    title: "幕布",
+    link: "https://mubu.com/",
+  },
+  {
+    title: "PressOn",
+    link: "https://www.processon.com/",
+  },
 ];
