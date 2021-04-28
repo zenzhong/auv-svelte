@@ -1,7 +1,7 @@
 export const navList = [
   {
     title: "迷津渡口",
-    link: "http://www.qingzz.cn/",
+    link: "https://blog.qingzz.cn/",
   },
   {
     title: "力扣",
