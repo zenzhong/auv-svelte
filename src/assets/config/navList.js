@@ -1,7 +1,11 @@
 export const navList = [
   {
-    title: "迷津渡口",
-    link: "https://blog.qingzz.cn/",
+    title: "清梦",
+    link: "https://star.qingzz.cn/",
+  },
+  {
+    title: "清梦阁",
+    link: "https://vite.worktile.com/",
   },
   {
     title: "力扣",
@@ -78,10 +82,6 @@ export const navList = [
   {
     title: "果壳网",
     link: "https://www.guokr.com/",
-  },
-  {
-    title: "堆糖",
-    link: "https://www.duitang.com/",
   },
   {
     title: "淘宝网",
